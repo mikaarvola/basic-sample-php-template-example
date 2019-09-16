@@ -12,6 +12,16 @@
 	}
 	.footer {
 		font-size: 14px;
-		text-align: center;
+		height: 30px;
+		position: fixed;
+		bottom: 0;
 	}
+	.tehtavavalikko {
+		display: grid;
+	}
+
+	.jumbotron {
+		background-color: #EEE072;
+	}
+
 </style>
