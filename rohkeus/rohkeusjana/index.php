@@ -1,3 +1,5 @@
+<?php $CURRENT_PAGE = basename($_SERVER["REQUEST_URI"]);?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +7,7 @@
 </head>
 <body>
 
-<?php include("../../includes/design-top.php");?>
+<?php include("../../includes/header.php");?>
 <?php include("../../includes/navigation.php");?>
 
 <div class="container" id="main-content">
