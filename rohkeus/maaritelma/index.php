@@ -11,9 +11,20 @@
 <?php include("../../includes/navigation.php");?>
 
 <div class="container" id="main-content">
-	<h2>Määritelmätehtävä</h2>
-	<p>Määritelmätehtävä löhöilee tässä.</p>
-	<p>Alla myös navigointi eteen ja/tai taakse.</p>
+	<h2>Rohkeus - määritelmätehtävä</h2>
+	<p>
+		Rohkeus tarkoittaa sitä, että uskaltaa toimia, vaikka hieman pelottaisi tai jännittäisi. Ihmisiä
+		pelottaa ja jännittää eri asiat. Jollekin voi olla rohkeutta se, että kertoo muille, kuka on ja
+		jollekin rohkeutta on mennä huvipuiston villeimpään laitteeseen. On helpompi olla rohkea
+		turvallisessa ja itselle tutussa ympäristössä. Rohkeutta on kysyä, jos ei tiedä tai pyytää apua
+		tarvittaessa. Rohkeutta voi joskus olla myös sanoa ei.
+	</p>
+</div>
+
+
+<div id="internal-navigation">
+	<a href="/rohkeus/" class="previous">&laquo; Edelliseen</a>
+	<a href="/rohkeus/tarina/" class="next">Seuraavaan &raquo;</a>
 </div>
 
 <?php include("../../includes/footer.php");?>
