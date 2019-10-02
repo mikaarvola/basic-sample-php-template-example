@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("../../includes/head-tag-contents.php");?>
+	<?php include("../../../includes/head-tag-contents.php");?>
 </head>
 <body>
 
-<?php include("../../includes/header.php");?>
-<?php include("../../includes/navigation.php");?>
+<?php include("../../../includes/header.php");?>
+<?php include("../../../includes/navigation.php");?>
 
 <div class="container" id="main-content">
 	<h2>Rohkeus - määritelmätehtävä</h2>
@@ -23,11 +23,11 @@
 
 
 <div id="internal-navigation">
-	<a href="/rohkeus/" class="previous">&laquo; Edelliseen</a>
-	<a href="/rohkeus/tarina/" class="next">Seuraavaan &raquo;</a>
+	<a href="/tehtavat/rohkeus/" class="previous">&laquo; Edelliseen</a>
+	<a href="/tehtavat/rohkeus/tarina/" class="next">Seuraavaan &raquo;</a>
 </div>
 
-<?php include("../../includes/footer.php");?>
+<?php include("../../../includes/footer.php");?>
 
 </body>
 </html>

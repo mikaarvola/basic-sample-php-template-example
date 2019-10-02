@@ -1,7 +1,7 @@
 var doc = new jsPDF({
 	unit: "mm",
 	lineHeight: 1.2
-}).setProperties({ title: "Rohkeus - Minun tarinani" });
+}).setProperties({ title: "Itsetuntemus - Minun tarinani" });
 
 // All PDF creating things is here
 function createPDF() {
@@ -9,7 +9,7 @@ function createPDF() {
 		// DEFINE AGAIN, OTHERWISE IF USER CREATES NEW PDF OVERLAPPING OCCUR
 		unit: "mm",
 		lineHeight: 1.2
-	}).setProperties({ title: "Rohkeus" });
+	}).setProperties({ title: "Itsetuntemus - Minun tarinani" });
 
 	doc.setFontSize(13);
 
@@ -17,12 +17,12 @@ function createPDF() {
 	doc.addImage(imgData, "JPEG", 0, 0, 10, 148); // X, Y, W, H
 	doc.addImage(imgData, "JPEG", 0, 148, 20, 149);
 
-	var KUKAOLEN = "Minun nimeni on " + NIMI + ". ";
-	var JANNITTAVATTILANTEET = "Jännitän kovasti tilanteita joissa " + EXCITE + ". ";
-	var SILLOINOLEN = "Silloin minusta tuntuu, että olen " + FEELING + ". ";
-	var HALUANOLLAROHKEA = "Nyt haluan olla rohkea. Uskaaltakseni yrittää tilanteesta selviytymistä, minä " + SOLUTION + ". ";
-	var KUNOLENROHKEA = "Kun olen uskaltanut olla rohkea pelottavassa ja jännittävässä tilanteessa, minusta tuntuu että " + FEELING2 + ". ";
-	var TUNNENROHKEAKSI = "Tunnen itseni rohkeaksi " + BRAVE + ". ";
+	var KUKAOLEN = "Minun nimeni on " + Q001 + ". ";
+	var JANNITTAVATTILANTEET = "Jännitän kovasti tilanteita joissa " + Q002 + ". ";
+	var SILLOINOLEN = "Silloin minusta tuntuu, että olen " + Q003 + ". ";
+	var HALUANOLLAROHKEA = "Nyt haluan olla rohkea. Uskaaltakseni yrittää tilanteesta selviytymistä, minä " + Q004 + ". ";
+	var KUNOLENROHKEA = "Kun olen uskaltanut olla rohkea pelottavassa ja jännittävässä tilanteessa, minusta tuntuu että " + Q005 + ". ";
+	var TUNNENROHKEAKSI = "Tunnen itseni rohkeaksi " + Q006 + ". ";
 
 	var KAIKKI =  KUKAOLEN + JANNITTAVATTILANTEET + SILLOINOLEN + "\n\n" + HALUANOLLAROHKEA + KUNOLENROHKEA + "\n\n" + TUNNENROHKEAKSI;
 	var KAIKKILINED = doc.splitTextToSize(String(KAIKKI), 160);
@@ -40,7 +40,5 @@ function createPDF() {
 	doc.setFontSize(8);
 	doc.text( 20, 290, "Tämä tiedosto on luotu tehtäväpankissa jonka testiversion löydät osoitteesta http://staging.oen.fi." );
 
-	/* #endregion */
-
-	doc.save("rohkeus-minun_tarinani.pdf");
+	doc.save("itsetuntemus-minun_tarinani.pdf");
 }

@@ -11,9 +11,12 @@
 <?php include("../../includes/navigation.php");?>
 
 <div class="container" id="main-content">
-	<h2>Rohkeusjana</h2>
-	<p>Täällä löhöilee rohkeusjanat.</p>
-	<p>Alla myös navigointi eteen ja/tai taakse.</p>
+	<h2>Itsetuntemus-valikko</h2>
+	<p>Tältä sivulta valkataan mitä tehtävää Itsetuntemus-työelämävalmiudesta tehdään. Klikkaile alta yksittäinen tehtävä.</p>
+	
+	<div class="tehtavavalikko">
+		<a href="minuntarinani/">Minun tarinani -tehtävä</a>
+	</div>
 </div>
 
 <?php include("../../includes/footer.php");?>

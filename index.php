@@ -16,7 +16,8 @@
 		Tässä olisi lyhyt tervetuloteksti yms. ja sitten valitaankin jo mitä työelämävalmiutta halutaan touhuta. Kuten alla mutta toki kaikki valmiudet lueteltuna. Tai ehkä kuvituksilla, ei pelkkää tylsää tekstiä.
 	</p>
 
-<a href="rohkeus/">Rohkeus-valikkoon</a>
+<a href="tehtavat/rohkeus/">Rohkeus-valikkoon</a>
+<a href="tehtavat/itsetuntemus/">Itsetuntemus-valikkoon</a>
 
 </div>
 
