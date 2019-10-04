@@ -17,6 +17,7 @@
 	<div class="tehtavavalikko">
 		<a href="maaritelma/">Itsetuntemus - määritelmätehtävä</a>
 		<a href="minuntarinani/">Minun tarinani -tehtävä</a>
+		<a href="omanelamankartta/">Oman elämän kartta</a>
 	</div>
 </div>
 
