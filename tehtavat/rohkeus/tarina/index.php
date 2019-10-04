@@ -15,7 +15,7 @@
 <script src="./oen_rohkeus_tarina_pdf_graphics.js" defer></script>
 
 <div class="task rohkeus tarina" id="main-content">
-	<h2>Tarina</h2>
+	<h2>Minun tarinani</h2>
 
 	<p>Tunteita ja pelkoja voi käsitellä pohtimalla jännittävää tilannetta. Täytä sinua kuvaavat sanat tarinan tyhjiin kohtiin.</p>
 
@@ -40,13 +40,11 @@
 	<p>Hienoa, pääsit loppuun asti. Voit nyt painaa tallentaa oman tarinasi PDF-muodossa.</p>
 </div>
 
-<div id="internal-navigation">
-	<a href="/tehtavat/rohkeus/maaritelma/" class="previous">&laquo; Edelliseen</a>
-	<a href="/tehtavat/rohkeus/rohkeusjana/" class="next">Seuraavaan &raquo;</a>
-</div>
-
 <div class="button-bg">
 	<div id="buttons">
+		<a href="/tehtavat/rohkeus/maaritelma/" class="btn btn-sm btn-reverse-secondary">&laquo; Edelliseen</a>
+		<a href="/tehtavat/rohkeus/rohkeusjana/" class="btn btn-sm btn-reverse-secondary">Seuraavaan &raquo;</a>
+
 		<button onclick="createPDF();" class="btn btn-sm btn-outline-secondary">Tallenna PDF</button>
 		<button onclick="deleteCookies();" class="btn btn-sm btn-outline-secondary">Tyhjennä kentät</button>
 		<button onclick="reportIssue();" class="btn btn-sm btn-outline-secondary">Ilmoita ongelmasta</button>

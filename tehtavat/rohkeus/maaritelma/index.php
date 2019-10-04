@@ -22,11 +22,12 @@
 </div>
 
 
-<div id="internal-navigation">
-	<a href="/tehtavat/rohkeus/" class="previous">&laquo; Edelliseen</a>
-	<a href="/tehtavat/rohkeus/tarina/" class="next">Seuraavaan &raquo;</a>
+<div class="button-bg">
+	<div id="buttons">
+		<a href="/tehtavat/rohkeus/" class="btn btn-sm btn-reverse-secondary">&laquo; Edelliseen</a>
+		<a href="/tehtavat/rohkeus/rohkeusjana/" class="btn btn-sm btn-reverse-secondary">Seuraavaan &raquo;</a>
+	</div>
 </div>
-
 <?php include("../../../includes/footer.php");?>
 
 </body>

@@ -46,13 +46,11 @@
 	<p>Hienoa, pääsit loppuun asti. Voit nyt painaa tallentaa oman tarinasi PDF-muodossa.</p>
 </div>
 
-<div id="internal-navigation">
-	<a href="/itsetuntemus/" class="previous">&laquo; Edelliseen</a>
-	<a href="/itsetuntemus/rohkeusjana/" class="next">Seuraavaan &raquo;</a>
-</div>
-
 <div class="button-bg">
 	<div id="buttons">
+		<a href="/tehtavat/itsetuntemus/maaritelma/" class="btn btn-sm btn-reverse-secondary">&laquo; Edelliseen</a>
+		<a href="/tehtavat/itsetuntemus/omanelamankartta/" class="btn btn-sm btn-reverse-secondary">Seuraavaan &raquo;</a>
+
 		<button onclick="createPDF();" class="btn btn-sm btn-outline-secondary">Tallenna PDF</button>
 		<button onclick="deleteCookies();" class="btn btn-sm btn-outline-secondary">Tyhjennä kentät</button>
 		<button onclick="reportIssue();" class="btn btn-sm btn-outline-secondary">Ilmoita ongelmasta</button>

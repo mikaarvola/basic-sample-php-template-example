@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
 #main-content {
 	margin-top:20px;
+}
+
+#main-content.task {
+    padding-left: 15px;
+}
+
+.button-bg {
+    padding-left: 15px;
 }
 
 .footer {
@@ -7,10 +18,7 @@
 	height: 30px;
 	position: fixed;
 	bottom: 0;
-	width: 100%;
-	background-color: #ffffff;
-	padding-left: 10px;
-    margin-left: -10px;
+	color: #ffffff;
 }
 
 .tehtavavalikko {
@@ -18,14 +26,17 @@
 }
 
 .jumbotron {
-	background-color: #EEE072;
+	background: url(/images/cropped-bg_1920px.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-bottom: 3px solid #b40f00;
+	margin-bottom: 5px;
+	background-position: center;
 }
 
 .content.container {
     margin-bottom: 50px;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
 
 textarea {
 	font-family: 'Caveat Brush', cursive;
@@ -70,4 +81,195 @@ textarea:focus {
 	text-decoration: none;
 	display: inline-block;
 	padding: 8px 16px;
+}
+
+.card {
+	box-shadow: 0px 0.03rem 0.09rem rgba(0,0,0,0.18), 0px 0.16rem 0.36rem rgba(0,0,0,0.22);
+}
+
+.card-box {
+	position: relative;
+	text-align: center;
+	font-family: 'Caveat Brush', cursive;
+	color:#222222;
+}
+
+.card-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	color: #432563;
+	font-weight: 700;
+	font-family: 'Indie Flower', cursive;
+	font-size: 32px;
+}
+
+h1.container {
+	color: #432563;
+	font-weight: 700;
+	font-family: 'Indie Flower', cursive;
+	font-size: 64px;
+}
+
+.btn-group {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 15px;
+}
+
+button.btn.btn-sm.btn-outline-secondary {
+    text-align: center;
+    min-width: 150px;
+}
+
+.btn.btn-sm {
+    margin-bottom: 5px;
+}
+
+.slidecontainer {
+	width: 100%;
+}
+
+.slider,
+.slider1,
+.slider2,
+.slider3,
+.slider4,
+.slider5 {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider:hover,
+.slider1:hover,
+.slider2:hover,
+.slider3:hover,
+.slider4:hover,
+.slider5:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb,
+.slider1::-webkit-slider-thumb,
+.slider2::-webkit-slider-thumb,
+.slider3::-webkit-slider-thumb,
+.slider4::-webkit-slider-thumb,
+.slider5::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #b40f00;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.slider::-moz-range-thumb,
+.slider1::-moz-range-thumb,
+.slider2::-moz-range-thumb,
+.slider3::-moz-range-thumb,
+.slider4::-moz-range-thumb,
+.slider5::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #b40f00;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.slaider::-webkit-slider-thumb,
+.slaider1::-webkit-slider-thumb,
+.slaider2::-webkit-slider-thumb,
+.slaider3::-webkit-slider-thumb,
+.slaider4::-webkit-slider-thumb,
+.slaider5::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #D3D3D3;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.slaider::-moz-range-thumb,
+.slaider1::-moz-range-thumb,
+.slaider2::-moz-range-thumb,
+.slaider3::-moz-range-thumb,
+.slaider4::-moz-range-thumb,
+.slaider5::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #D3D3D3;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+
+.slidervalues,
+.slidervalues1,
+.slidervalues2,
+.slidervalues3,
+.slidervalues4,
+.slidervalues5 {
+	position: relative;
+	width: calc(100% - 20px);
+	display: inline-block;
+	margin-left: 6px;
+	height: 1rem;
+}
+
+.slidervalues label,
+.slidervalues1 label,
+.slidervalues2 label,
+.slidervalues3 label,
+.slidervalues4 label,
+.slidervalues5 label {
+	position: absolute;
+}
+
+.sliderbox {
+    margin: 47px -10px;
+    padding: 20px 10px;
+}
+
+#internal-navigation {
+    padding-left: 15px;
+}
+
+.btn-reverse-secondary {
+	color: #ffffff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-reverse-secondary:hover {
+    border-color: #6c757d;
+	color: #6c757d;
+	background-color: #ffffff;
+}
+
+.cloud_bg {
+	background: url(/images/sources/clouds_handdrawn.svg);
+	background-size: contain;
+	width: 100%;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+
+.center_box {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	display: table;
+	top: 100px;
 }

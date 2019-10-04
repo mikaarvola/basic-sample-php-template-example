@@ -11,11 +11,11 @@
 <?php include("../../includes/navigation.php");?>
 
 <div class="container" id="main-content">
-	<h2>Rohkeus-valikko</h2>
-	<p>Tältä sivulta valkataan mitä tehtävää Rohkeus-työelämävalmiudesta tehdään. Klikkaile alta yksittäinen tehtävä.</p>
+	<h2><?php echo ucfirst($CURRENT_PAGE); ?></h2>
+	<p>Valitse alta yksittäinen tehtävä.</p>
 	
 	<div class="tehtavavalikko">
-		<a href="maaritelma/">Määritelmä-tehtävä</a>
+		<a href="maaritelma/">Määritelmä</a>
 		<a href="tarina/">Minun tarinani</a>
 		<a href="rohkeusjana/">Rohkeusjana</a>
 		<a href="rohkeitatekoja/">Rohkeita tekoja</a>

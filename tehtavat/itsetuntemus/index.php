@@ -11,10 +11,11 @@
 <?php include("../../includes/navigation.php");?>
 
 <div class="container" id="main-content">
-	<h2>Itsetuntemus-valikko</h2>
-	<p>Tältä sivulta valkataan mitä tehtävää Itsetuntemus-työelämävalmiudesta tehdään. Klikkaile alta yksittäinen tehtävä.</p>
-	
+	<h2><?php echo ucfirst($CURRENT_PAGE); ?></h2>
+	<p>Valitse alta yksittäinen tehtävä.</p>
+
 	<div class="tehtavavalikko">
+		<a href="maaritelma/">Itsetuntemus - määritelmätehtävä</a>
 		<a href="minuntarinani/">Minun tarinani -tehtävä</a>
 	</div>
 </div>
