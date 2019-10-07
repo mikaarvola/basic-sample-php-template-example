@@ -53,6 +53,25 @@
 			</div>
 		</div>
 	</div>
+	<div class="col-md-4">
+		<div class="card mb-4 box-shadow">
+			<div class="card-box">
+				<img class="card-img-top" src="/images/splash_400px.jpg" alt="Card image cap">
+				<div class="card-text mt-2">ITSESÄÄTELY</div>
+			</div>
+			<div id="progressbar-tarina" class="main-progressbar"></div>
+			<div class="card-body d-flex flex-column">
+				<div class="d-flex justify-content-between align-items-end mt-auto">
+					<div class="btn-group">
+						<a href="/tehtavat/itsesaately/">
+							<button type="button" class="btn btn-sm btn-outline-secondary">Tehtäviin</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </div>
 
 </div>

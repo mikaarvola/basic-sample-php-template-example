@@ -89,7 +89,7 @@
 <div class="button-bg">
 	<div id="buttons">
 		<a href="/tehtavat/itsetuntemus/maaritelma/" class="btn btn-sm btn-reverse-secondary">&laquo; Edelliseen</a>
-		<a href="/tehtavat/itsetuntemus/omanelamankartta/" class="btn btn-sm btn-reverse-secondary">Seuraavaan &raquo;</a>
+		<a href="/tehtavat/itsetuntemus/" class="btn btn-sm btn-reverse-secondary">Seuraavaan &raquo;</a>
 
 		<button onclick="createPDF();" class="btn btn-sm btn-outline-secondary">Tallenna PDF</button>
 		<button onclick="deleteCookies();" class="btn btn-sm btn-outline-secondary">Tyhjennä kentät</button>
